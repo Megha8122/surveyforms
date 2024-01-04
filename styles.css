@@ -2,8 +2,7 @@ body{
     width: 100%;
     height: 40vh;
     margin: 0;
-    background-image: url('/bg-ig.jpeg');
-    background-attachment: cover;
+    background-color: #0f1035;
     font-family: Tahoma;
     font-size: 20px;
     padding-bottom: 0%;
