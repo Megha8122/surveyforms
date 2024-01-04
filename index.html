@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <title>Survery Form</title>
+  <!-- css linking -->
+  <link href="styles.css" rel="stylesheet">
+  <!-- font awesome linking -->
+  <script src="https://kit.fontawesome.com/aff0690436.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+  <form id="survery-form">
+    <fieldset>
+    <label for="name" id="name-label">
+      Name:
+      <input id="name" type="text" placeholder="Enter your name" required>
+    </label>
+    <br>
+    <label for="email" id="email-label" >
+      Email:
+      <input id="email" type="email" placeholder="Enter your email">
+    </label>
+    <br>
+    <label for="number" id="number-label">
+      Number:
+      <input id="number" type="tel" placeholder="Enter your number" required />
+    </label>
+    <br>
+    <label>Enter your age group:
+      <select id="dropdown">
+      <option>Select an age group</option>
+      <option>10-20</option>
+      <option>21-30</option>
+      <option>31-40</option>
+      <option>41-50</option>
+      <option>61-70</option>
+      <option>71+</option>
+    </select>
+    </label>
+    </fieldset>
+    <fieldset>
+    <legend>Select your occupation:</legend>
+      <label id="radio"><input type="radio" name="radio" />Student</label>
+      <label id="radio"><input type="radio" name="radio" />Working Professional</label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <label>Where did you hear about us?
+        <select>
+        <option value="">Select one</option>
+        <option value="1">Friends</option>
+        <option value="2">Online Website</option>
+        <option value="3">Youtube Video</option>
+        <option value="4">Others</option>
+        </select>
+      </label>
+      <br>
+      <label> What is your main area of interest:
+            <label for="first"><input type="checkbox" id="first" name="first" value="Java/C++" />Java/C++</label>
+            <label for="second"><input type="checkbox" id="second" name="second" value="Web Development" />Web Development</label>
+            <label for="third"><input type="checkbox" id="third" name="third" value="Blockchain" />Blockchain</label>
+            <br>
+      </label>
+      <label for="text-area">
+
+        Tell us what we can improve:
+          <textarea id="bio" name="bio" rows="3" cols="62" placeholder="Tell us about your thoughts..."></textarea>
+        </label>
+        <input id="submit" type="submit"/>
+  </form>
+  <br>
+  <br>
+  <br>
+
+  <footer class="footer">
+    <div class="connect">
+      <a href="https://www.linkedin.com/in/megha-saxena08122/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/Megha8122" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:veeman2002@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p class="foot">Made By Megha, Under guidance of <a href="https://www.freecodecamp.org/learn" target="_blank">freeCodeCamp</a></p>
+  </footer>
+</body>
+</html>
